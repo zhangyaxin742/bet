@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "BET",
+    "slug": "bet-mvp",
+    "scheme": "bet",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/bet-logo-dark.png",
+    "splash": {
+      "image": "./assets/bet-logo-dark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "userInterfaceStyle": "automatic",
+    "plugins": ["expo-router"],
+    "ios": { "supportsTablet": false },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/bet-logo-dark.png",
+        "backgroundColor": "#000000"
+      }
+    }
+  }
+}
